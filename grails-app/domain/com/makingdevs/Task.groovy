@@ -1,7 +1,10 @@
 package com.makingdevs
 
 class Task {
+  Date dateCreated
+  Date lastUpdated
 
-    static constraints = {
-    }
+  static mapping = {
+    autoTimestamp false
+  }
 }
